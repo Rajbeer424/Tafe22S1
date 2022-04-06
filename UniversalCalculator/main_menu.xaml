@@ -16,10 +16,11 @@
 				</TextBlock>
 
 
-				<Button x:Name="mathButton" Click="mathButton_Click" Content="Math Calculator" Margin="100,10,10,10" Height="100" Width="250" FontFamily="Arial" FontSize="20" Background="BurlyWood"  Foreground="Brown"></Button>
-				<Button x:Name="mortgageButton" Click="mortgageButton_Click" Content="Mortgage Calculator" Margin="100,10,10,10" Height="100" Width="250" FontFamily="Arial" FontSize="20" Background="BurlyWood" Foreground="Brown"></Button>
-				<Button x:Name="currencyButton" Click="currencyButton_Click" Content="Currency Calculator" Margin="100,10,10,10" Height="100" Width="250" FontFamily="Arial" FontSize="20" Background="BurlyWood" Foreground="Brown"></Button>
-				<Button x:Name="exitButton" Click="exitButton_Click" Content="Exit" Margin="100,10,10,10" Height="100" Width="250" FontFamily="Arial" FontSize="20" Background="BurlyWood" Foreground="Brown"></Button>
+				<Button x:Name="mathButton" Click="mathButton_Click" Content="Math Calculator" Margin="100,10,10,10" Height="70" Width="250" FontFamily="Arial" FontSize="20" Background="BurlyWood"  Foreground="Brown"></Button>
+				<Button x:Name="mortgageButton" Click="mortgageButton_Click" Content="Mortgage Calculator" Margin="100,10,10,10" Height="70" Width="250" FontFamily="Arial" FontSize="20" Background="BurlyWood" Foreground="Brown"></Button>
+				<Button x:Name="currencyButton" Click="currencyButton_Click" Content="Currency Calculator" Margin="100,10,10,10" Height="70" Width="250" FontFamily="Arial" FontSize="20" Background="BurlyWood" Foreground="Brown"></Button>
+				<Button x:Name="exitButton" Click="exitButton_Click" Content="Exit" Margin="100,10,10,10" Height="70" Width="250" FontFamily="Arial" FontSize="20" Background="BurlyWood" Foreground="Brown"></Button>
+				<Button x:Name="tripButton" Click="tripButton_Click" Content="Trip Calculator" Margin="100,10,10,10" Height="70" Width="250" FontFamily="Arial" FontSize="20" Background="BurlyWood" Foreground="Brown"></Button>
 			</StackPanel>
 			<StackPanel Orientation="Vertical">
 				<Image Source="abacus.png" Height="200" Width="200" HorizontalAlignment="Right" Margin="50,120,50,50"></Image>
