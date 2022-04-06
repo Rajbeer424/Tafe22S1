@@ -20,31 +20,21 @@ namespace Calculator
 	/// <summary>
 	/// An empty page that can be used on its own or navigated to within a Frame.
 	/// </summary>
-	public sealed partial class main_menu : Page
+	public sealed partial class mortgage_calculator : Page
 	{
-		public main_menu()
+		public mortgage_calculator()
 		{
 			this.InitializeComponent();
 		}
-		private void exitButton_Click(object sender, RoutedEventArgs e)
+
+		private void calculate_Click(object sender, RoutedEventArgs e)
+		{
+
+		}
+		private void exit_Click(object sender, RoutedEventArgs e)
 		{
 			this.Frame.Navigate(typeof(main_menu));
 		}
-
-		private void currencyButton_Click(object sender, RoutedEventArgs e)
-		{
-			this.Frame.Navigate(typeof(currency_conversion_calculator));
-		}
-
-		private void mortgageButton_Click(object sender, RoutedEventArgs e)
-		{
-
-			this.Frame.Navigate(typeof(mortgage_calculator));
-		}
-
-		private void mathButton_Click(object sender, RoutedEventArgs e)
-		{
-			this.Frame.Navigate(typeof(MainPage));
-		}
 	}
 }
+	
